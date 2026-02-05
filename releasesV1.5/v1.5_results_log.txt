@@ -1,0 +1,49 @@
+🚀 STARTING V1.5: ROLLING WINDOW & FAIRNESS PROTOCOL
+============================================================
+
+🔎 STARTING HYPERPARAMETER TUNING (Fold 1 Only)...
+   Testing: {'hidden': 64, 'lr': 0.001} ...
+   Testing: {'hidden': 64, 'lr': 0.0005} ...
+   Testing: {'hidden': 128, 'lr': 0.001} ...
+   Testing: {'hidden': 128, 'lr': 0.0005} ...
+✅ Best Config Found: {'hidden': 64, 'lr': 0.0005}
+
+📅 FOLD 1/3 (Train End: 100000)
+----------------------------------------
+   ⚓ Naive Baseline MSE: 3,703,468
+   👉 Classical Avg: 86,048,491
+🚀 STARTING V1.5.1: FIXED SHAPES & PROTOCOL
+============================================================
+
+🔎 STARTING HYPERPARAMETER TUNING (Fold 1 Only)...
+   Testing: {'hidden': 64, 'lr': 0.001} ...
+   Testing: {'hidden': 64, 'lr': 0.0005} ...
+   Testing: {'hidden': 128, 'lr': 0.001} ...
+   Testing: {'hidden': 128, 'lr': 0.0005} ...
+✅ Best Config Found: {'hidden': 128, 'lr': 0.001}
+
+📅 FOLD 1/3 (Train End: 100000)
+----------------------------------------
+   ⚓ Naive Baseline MSE: 3,703,468
+   👉 Classical Avg: 98,431
+   👉 Hybrid Avg: 167,061
+
+📅 FOLD 2/3 (Train End: 120000)
+----------------------------------------
+   ⚓ Naive Baseline MSE: 1,323,896
+   👉 Classical Avg: 28,547
+   👉 Hybrid Avg: 81,544
+
+📅 FOLD 3/3 (Train End: 140000)
+----------------------------------------
+   ⚓ Naive Baseline MSE: 1,564,396
+   👉 Classical Avg: 66,978
+   👉 Hybrid Avg: 148,476
+
+============================================================
+🏁 FINAL V1.5 BENCHMARK RESULTS
+============================================================
+Hyperparameters: Hidden=128, LR=0.001
+Naive:     2,197,253
+Classical: 64,652
+Hybrid:    132,360
