@@ -40,12 +40,32 @@ In this version, we transitioned to a **Residual Learning** framework accelerate
 ---
 
 ## 🛠️ Reproducibility
-To replicate the V2.0 benchmark:
+To replicate the V2.0 benchmark: 
 
-### 1. Prerequisites
+### 1. Prerequisites 
 * Python 3.10+
 * NVIDIA GPU (CUDA 12 support required for `cuQuantum`).
 
 ### 2. Setup
-```bash
-pip install -r requirements.txt
+bash 
+` pip install -r requirements.txt `
+
+
+
+### 3. Data Placement
+Ensure the dataset is in the root directory:
+
+Place PJME_hourly.csv in the main project folder.
+
+### 4. Run Benchmark
+Bash
+python scientific_benchmark_v2.py
+
+---
+
+## 📂 Outputs
+
+Logs: v2.0_pilot_log.txt (Training progress and metrics).
+
+Results: Console output showing per-fold MSE and Final Summary.
+
