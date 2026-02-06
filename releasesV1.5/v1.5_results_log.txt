@@ -1,17 +1,3 @@
-🚀 STARTING V1.5: ROLLING WINDOW & FAIRNESS PROTOCOL
-============================================================
-
-🔎 STARTING HYPERPARAMETER TUNING (Fold 1 Only)...
-   Testing: {'hidden': 64, 'lr': 0.001} ...
-   Testing: {'hidden': 64, 'lr': 0.0005} ...
-   Testing: {'hidden': 128, 'lr': 0.001} ...
-   Testing: {'hidden': 128, 'lr': 0.0005} ...
-✅ Best Config Found: {'hidden': 64, 'lr': 0.0005}
-
-📅 FOLD 1/3 (Train End: 100000)
-----------------------------------------
-   ⚓ Naive Baseline MSE: 3,703,468
-   👉 Classical Avg: 86,048,491
 🚀 STARTING V1.5.1: FIXED SHAPES & PROTOCOL
 ============================================================
 
