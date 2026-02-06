@@ -1,0 +1,28 @@
+# 🔁 Reproducibility Guide (V1.0 - V1.5)
+
+This directory contains the legacy CPU-based benchmarks used to identify the "Quantum Information Bottleneck".
+
+### 🛠️ Prerequisites
+* **Python:** 3.10 or higher.
+* **Hardware:** Standard CPU (No GPU required for V1.x).
+
+## 📁 Dataset
+Place the dataset file here (same folder as the benchmark script):
+- `PJME_hourly.csv`
+
+### 🚀 Quick Start
+1.  **Install Dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+2.  **Run the Benchmark (V1.5):**
+    To reproduce the strict fairness comparison (Classical vs. 4-Qubit Hybrid):
+    ```bash
+    python scientific_benchmark_v1.5.py
+    ```
+
+### 📊 Expected Outcome
+The script performs a **3-Fold Rolling Window Cross-Validation**.
+* **Runtime:** ~12-15 hours on a standard CPU.
+* **Result:** Classical LSTM (Hidden=128) is expected to outperform the 4-Qubit Hybrid model due to capacity constraints (the bottleneck discovery).
