@@ -1,0 +1,105 @@
+🚀 STARTING V2.0 (HEARTBEAT): Batch=1024, Real-time Logs
+============================================================
+
+📅 FOLD 1/3
+----------------------------------------
+
+🌱 Seed 42:
+   🔥 Stage 1: Classical Warmup.
+     [Stage1-Classical] Ep 1/20 | Val: 0.001573 | Alpha: 0.0000 | Time: 3.4s
+     [Stage1-Classical] Ep 2/20 | Val: 0.001463 | Alpha: 0.0000 | Time: 3.3s
+     [Stage1-Classical] Ep 3/20 | Val: 0.000731 | Alpha: 0.0000 | Time: 3.3s
+     [Stage1-Classical] Ep 4/20 | Val: 0.000592 | Alpha: 0.0000 | Time: 3.3s
+     [Stage1-Classical] Ep 5/20 | Val: 0.000303 | Alpha: 0.0000 | Time: 3.3s
+     [Stage1-Classical] Ep 6/20 | Val: 0.000270 | Alpha: 0.0000 | Time: 3.3s
+     [Stage1-Classical] Ep 7/20 | Val: 0.000257 | Alpha: 0.0000 | Time: 3.2s
+     [Stage1-Classical] Ep 8/20 | Val: 0.000188 | Alpha: 0.0000 | Time: 3.3s
+     [Stage1-Classical] Ep 9/20 | Val: 0.000199 | Alpha: 0.0000 | Time: 3.3s
+     [Stage1-Classical] Ep 10/20 | Val: 0.000165 | Alpha: 0.0000 | Time: 3.3s
+     [Stage1-Classical] Ep 11/20 | Val: 0.000118 | Alpha: 0.0000 | Time: 3.3s
+     [Stage1-Classical] Ep 12/20 | Val: 0.000129 | Alpha: 0.0000 | Time: 3.3s
+     [Stage1-Classical] Ep 13/20 | Val: 0.000177 | Alpha: 0.0000 | Time: 3.3s
+     [Stage1-Classical] Ep 14/20 | Val: 0.000106 | Alpha: 0.0000 | Time: 3.3s
+     [Stage1-Classical] Ep 15/20 | Val: 0.000085 | Alpha: 0.0000 | Time: 3.3s
+     [Stage1-Classical] Ep 16/20 | Val: 0.000075 | Alpha: 0.0000 | Time: 3.3s
+     [Stage1-Classical] Ep 17/20 | Val: 0.000135 | Alpha: 0.0000 | Time: 3.3s
+     [Stage1-Classical] Ep 18/20 | Val: 0.000089 | Alpha: 0.0000 | Time: 3.3s
+     [Stage1-Classical] Ep 19/20 | Val: 0.000132 | Alpha: 0.0000 | Time: 3.3s
+     [Stage1-Classical] Ep 20/20 | Val: 0.000054 | Alpha: 0.0000 | Time: 3.3s
+   👉 Stage 1 MSE: 289,760 | Time: 1.1m
+   ❄️ Stage 2: Classical FROZEN. Quantum Active.
+     [Stage2-Quantum] Ep 1/3 | Val: 0.000046 | Alpha: -0.0383 | Time: 4279.0s
+     [Stage2-Quantum] Ep 2/3 | Val: 0.000049 | Alpha: -0.0452 | Time: 4292.7s
+     [Stage2-Quantum] Ep 3/3 | Val: 0.000052 | Alpha: -0.0516 | Time: 4301.3s
+   🚀 Stage 2 MSE: 230,197 | Alpha: -0.0383
+📊 FOLD RESULT: Classical 289,760 vs Quantum 230,197
+
+📅 FOLD 2/3
+----------------------------------------
+
+🌱 Seed 42:
+   🔥 Stage 1: Classical Warmup.
+     [Stage1-Classical] Ep 1/20 | Val: 0.002452 | Alpha: 0.0000 | Time: 3.9s
+     [Stage1-Classical] Ep 2/20 | Val: 0.001935 | Alpha: 0.0000 | Time: 4.0s
+     [Stage1-Classical] Ep 3/20 | Val: 0.000907 | Alpha: 0.0000 | Time: 3.9s
+     [Stage1-Classical] Ep 4/20 | Val: 0.001156 | Alpha: 0.0000 | Time: 3.9s
+     [Stage1-Classical] Ep 5/20 | Val: 0.000541 | Alpha: 0.0000 | Time: 3.9s
+     [Stage1-Classical] Ep 6/20 | Val: 0.000346 | Alpha: 0.0000 | Time: 4.0s
+     [Stage1-Classical] Ep 7/20 | Val: 0.000400 | Alpha: 0.0000 | Time: 4.0s
+     [Stage1-Classical] Ep 8/20 | Val: 0.000281 | Alpha: 0.0000 | Time: 4.0s
+     [Stage1-Classical] Ep 9/20 | Val: 0.000424 | Alpha: 0.0000 | Time: 4.0s
+     [Stage1-Classical] Ep 10/20 | Val: 0.000288 | Alpha: 0.0000 | Time: 4.0s
+     [Stage1-Classical] Ep 11/20 | Val: 0.000345 | Alpha: 0.0000 | Time: 4.0s
+     [Stage1-Classical] Ep 12/20 | Val: 0.000226 | Alpha: 0.0000 | Time: 4.0s
+     [Stage1-Classical] Ep 13/20 | Val: 0.000247 | Alpha: 0.0000 | Time: 4.0s
+     [Stage1-Classical] Ep 14/20 | Val: 0.000243 | Alpha: 0.0000 | Time: 4.0s
+     [Stage1-Classical] Ep 15/20 | Val: 0.000298 | Alpha: 0.0000 | Time: 4.0s
+     [Stage1-Classical] Ep 16/20 | Val: 0.000359 | Alpha: 0.0000 | Time: 4.0s
+     [Stage1-Classical] Ep 17/20 | Val: 0.000132 | Alpha: 0.0000 | Time: 4.0s
+     [Stage1-Classical] Ep 18/20 | Val: 0.000150 | Alpha: 0.0000 | Time: 4.0s
+     [Stage1-Classical] Ep 19/20 | Val: 0.000110 | Alpha: 0.0000 | Time: 4.0s
+     [Stage1-Classical] Ep 20/20 | Val: 0.000111 | Alpha: 0.0000 | Time: 4.0s
+   👉 Stage 1 MSE: 148,512 | Time: 1.3m
+   ❄️ Stage 2: Classical FROZEN. Quantum Active.
+     [Stage2-Quantum] Ep 1/3 | Val: 0.000100 | Alpha: 0.0324 | Time: 5138.6s
+     [Stage2-Quantum] Ep 2/3 | Val: 0.000106 | Alpha: 0.0308 | Time: 5137.0s
+     [Stage2-Quantum] Ep 3/3 | Val: 0.000105 | Alpha: 0.0376 | Time: 5145.6s
+   🚀 Stage 2 MSE: 134,005 | Alpha: 0.0324
+📊 FOLD RESULT: Classical 148,512 vs Quantum 134,005
+
+📅 FOLD 3/3
+----------------------------------------
+
+🌱 Seed 42:
+   🔥 Stage 1: Classical Warmup.
+     [Stage1-Classical] Ep 1/20 | Val: 0.007455 | Alpha: 0.0000 | Time: 4.6s
+     [Stage1-Classical] Ep 2/20 | Val: 0.002539 | Alpha: 0.0000 | Time: 4.5s
+     [Stage1-Classical] Ep 3/20 | Val: 0.000728 | Alpha: 0.0000 | Time: 4.6s
+     [Stage1-Classical] Ep 4/20 | Val: 0.000586 | Alpha: 0.0000 | Time: 4.7s
+     [Stage1-Classical] Ep 5/20 | Val: 0.000471 | Alpha: 0.0000 | Time: 4.6s
+     [Stage1-Classical] Ep 6/20 | Val: 0.000581 | Alpha: 0.0000 | Time: 4.6s
+     [Stage1-Classical] Ep 7/20 | Val: 0.000409 | Alpha: 0.0000 | Time: 4.6s
+     [Stage1-Classical] Ep 8/20 | Val: 0.000301 | Alpha: 0.0000 | Time: 4.7s
+     [Stage1-Classical] Ep 9/20 | Val: 0.000302 | Alpha: 0.0000 | Time: 4.6s
+     [Stage1-Classical] Ep 10/20 | Val: 0.000193 | Alpha: 0.0000 | Time: 4.6s
+     [Stage1-Classical] Ep 11/20 | Val: 0.000205 | Alpha: 0.0000 | Time: 4.6s
+     [Stage1-Classical] Ep 12/20 | Val: 0.000211 | Alpha: 0.0000 | Time: 4.7s
+     [Stage1-Classical] Ep 13/20 | Val: 0.000163 | Alpha: 0.0000 | Time: 4.7s
+     [Stage1-Classical] Ep 14/20 | Val: 0.000168 | Alpha: 0.0000 | Time: 4.6s
+     [Stage1-Classical] Ep 15/20 | Val: 0.000165 | Alpha: 0.0000 | Time: 4.7s
+     [Stage1-Classical] Ep 16/20 | Val: 0.000133 | Alpha: 0.0000 | Time: 4.7s
+     [Stage1-Classical] Ep 17/20 | Val: 0.000134 | Alpha: 0.0000 | Time: 4.6s
+     [Stage1-Classical] Ep 18/20 | Val: 0.000136 | Alpha: 0.0000 | Time: 4.7s
+     [Stage1-Classical] Ep 19/20 | Val: 0.000134 | Alpha: 0.0000 | Time: 4.7s
+     [Stage1-Classical] Ep 20/20 | Val: 0.000154 | Alpha: 0.0000 | Time: 4.7s
+   👉 Stage 1 MSE: 231,381 | Time: 1.5m
+   ❄️ Stage 2: Classical FROZEN. Quantum Active.
+     [Stage2-Quantum] Ep 1/3 | Val: 0.000124 | Alpha: 0.0235 | Time: 5994.3s
+     [Stage2-Quantum] Ep 2/3 | Val: 0.000126 | Alpha: 0.0262 | Time: 6008.7s
+     [Stage2-Quantum] Ep 3/3 | Val: 0.000126 | Alpha: 0.0293 | Time: 6015.9s
+   🚀 Stage 2 MSE: 228,650 | Alpha: 0.0235
+📊 FOLD RESULT: Classical 231,381 vs Quantum 228,650
+
+🏁 FINAL V2.0 BENCHMARK RESULTS
+Classical: 223,218
+Quantum:   197,617
